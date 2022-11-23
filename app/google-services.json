@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "179132414963",
+    "project_id": "beacoder-501c8",
+    "storage_bucket": "beacoder-501c8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:179132414963:android:482b77662ec3f54febb086",
+        "android_client_info": {
+          "package_name": "org.ganymede.minicompiler"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "179132414963-o32f0uaadh1rd2v29j6liktnv7e6mhq5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPCqbbOWSKXZiZlUKsypfYqds1X4fkOfg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "179132414963-o32f0uaadh1rd2v29j6liktnv7e6mhq5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

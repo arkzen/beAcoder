@@ -1,0 +1,123 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:id="@+id/welcome">
+
+
+    <ImageView
+        android:id="@+id/projectlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:foregroundGravity="center_horizontal"
+        android:src="@drawable/beacoder_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/coursewelcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_ui_dis_regular"
+        android:text="Hey! Welcome"
+        android:textSize="36sp"
+        android:layout_marginLeft="16dp"
+        android:gravity="center"
+        app:layout_constraintTop_toBottomOf="@+id/projectlogo" />
+
+    <TextView
+        android:id="@+id/coursesubheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/sf_ui_display_light"
+        android:gravity="center"
+        android:text="@string/welcome_subtittle"
+        android:textColor="@color/gray"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coursewelcome" />
+
+    <Button
+        android:id="@+id/regbutton"
+        android:layout_width="191dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@color/teal_200"
+        android:text="Register Here"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/coursesubheading" />
+
+    <Button
+        android:id="@+id/signinbutton"
+        android:layout_width="191dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:background="@color/teal_200"
+        android:text="sign in"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/regbutton" />
+
+    <Button
+        android:id="@+id/guestbutton"
+        android:layout_width="191dp"
+        android:layout_height="44dp"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:background="@color/teal_200"
+        android:text="guest"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signinbutton" />
+
+    <TextView
+        android:id="@+id/guestsubheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10sp"
+        android:fontFamily="@font/sf_ui_display_light"
+        android:gravity="center"
+        android:text="If you dont want to create profile you can \nstart leaning as guest.But in this case \nyour progress will not be recorded "
+        android:textColor="@color/gray"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guestbutton" />
+
+    <TextView
+        android:id="@+id/writemode"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@color/light_white"
+        android:padding="5dp"
+        android:soundEffectsEnabled="true"
+        android:text="Teacher mode"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guestsubheading" />
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+
+
+

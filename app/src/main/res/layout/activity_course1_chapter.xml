@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sky_blue"
+    tools:context=".course1_chapter">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:logo="@drawable/back_button"
+            app:titleMarginStart="40dp"
+            app:titleTextColor="@color/purple_xd" />
+
+        <RelativeLayout
+            android:id="@+id/seg1"
+            android:layout_width="390sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:background="@drawable/cardview_chapters"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            android:clickable="true"
+            app:layout_constraintTop_toBottomOf="@id/toolbar"
+            android:focusable="true">
+
+            <TextView
+                android:id="@+id/course1_seg1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:fontFamily="@font/sf_ui_display_light"
+                android:gravity="center"
+                android:text="@string/first_java_program"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/seg_sub1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28sp"
+                android:layout_marginTop="100sp"
+                android:text="6 Lessons"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/seg_sub2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="116sp"
+                android:layout_marginTop="100sp"
+                android:text="@string/beginner"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/seg2"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="390sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:background="@drawable/cardview_chapters"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seg1"
+            >
+
+            <TextView
+                android:id="@+id/course1_seg2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:fontFamily="@font/sf_ui_display_light"
+                android:gravity="center"
+                android:text="@string/data_types"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/seg_sub3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28sp"
+                android:layout_marginTop="100sp"
+                android:text="7 Lessons"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/seg_sub4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="116sp"
+                android:layout_marginTop="100sp"
+                android:text="@string/beginner"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/seg3"
+            android:layout_width="390sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:background="@drawable/cardview_chapters"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seg2"
+            >
+
+            <TextView
+                android:id="@+id/course1_seg5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:fontFamily="@font/sf_ui_display_light"
+                android:gravity="center"
+                android:text="@string/control_flow"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/seg_sub6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28sp"
+                android:layout_marginTop="100sp"
+                android:text="5 Lessons"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/seg_sub7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="116sp"
+                android:layout_marginTop="100sp"
+                android:text="@string/beginner"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/seg4"
+            android:layout_width="390sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:clickable="true"
+            android:focusable="true"
+            android:background="@drawable/cardview_chapters"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seg3"
+            >
+
+            <TextView
+                android:id="@+id/course1_seg8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:fontFamily="@font/sf_ui_display_light"
+                android:gravity="center"
+                android:text="Syntax"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/seg_sub9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28sp"
+                android:layout_marginTop="100sp"
+                android:text="@string/_15_lesson"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/seg_sub10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="116sp"
+                android:layout_marginTop="100sp"
+                android:text="@string/beginner"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/seg5"
+            android:clickable="true"
+            android:focusable="true"
+            android:layout_width="390sp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12sp"
+            android:background="@drawable/cardview_chapters"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/seg4"
+            >
+
+            <TextView
+                android:id="@+id/course1_seg11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25sp"
+                android:fontFamily="@font/sf_ui_display_light"
+                android:gravity="center"
+                android:text="@string/array"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/seg_sub12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="28sp"
+                android:layout_marginTop="100sp"
+                android:text="6 Lessons"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+            <TextView
+                android:id="@+id/seg_sub13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="116sp"
+                android:layout_marginTop="100sp"
+                android:text="@string/beginner"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+
+        </RelativeLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

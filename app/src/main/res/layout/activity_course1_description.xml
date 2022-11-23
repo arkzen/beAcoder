@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_editor_absoluteX="1dp"
+    app:layout_editor_absoluteY="1dp"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+            app:layout_constraintTop_toTopOf="parent"
+            app:logo="@drawable/back_button"
+            app:titleMarginStart="40dp"
+            app:titleTextColor="@color/purple_xd" />
+
+        <ImageView
+            android:id="@+id/java_course_logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/java_course_biglogo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/toolbar" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/course1_des_txt"
+            android:text="@string/course1_name"
+            app:layout_constraintTop_toBottomOf="@id/java_course_logo"
+            android:textSize="30sp"
+            android:layout_marginLeft="35sp"
+            android:layout_marginTop="25sp"
+            android:fontFamily="@font/sf_ui_display_light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/course1_des_subtxt"
+            android:text="14 Segments"
+            app:layout_constraintTop_toBottomOf="@id/course1_des_txt"
+            android:textSize="14sp"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="35sp"
+            android:fontFamily="@font/sf_ui_display_light"/>
+
+
+        <Button
+            android:id="@+id/startl_button"
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="35dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:backgroundTint="#6682D6"
+            android:text="Start Learning"
+            android:fontFamily="@font/sf_ui_dis_regular"
+            app:layout_constraintTop_toBottomOf="@id/course1_des_txt" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/course1_txt3"
+            android:text="Description"
+            app:layout_constraintTop_toBottomOf="@id/startl_button"
+            android:textSize="19sp"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="35sp"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/sf_ui_dis_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/course1_des_paratxt"
+            android:text="@string/java_description"
+            app:layout_constraintTop_toBottomOf="@id/course1_txt3"
+            android:textSize="14sp"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="35sp"
+            android:layout_marginRight="35sp"
+            android:fontFamily="@font/sf_ui_display_light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/course1_txt5"
+            android:text="Target"
+            app:layout_constraintTop_toBottomOf="@id/course1_des_paratxt"
+            android:textSize="19sp"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="35sp"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/sf_ui_dis_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tar_des"
+            android:text="2-3 Months 6 hours of learning per day"
+            app:layout_constraintTop_toBottomOf="@id/course1_txt5"
+            android:textSize="14sp"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="35sp"
+            android:layout_marginRight="35sp"
+            android:fontFamily="@font/sf_ui_display_light"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

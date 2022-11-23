@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".c1c1s4">
+
+
+    <Button
+        android:id="@+id/startl_button"
+        android:layout_width="300sp"
+        android:layout_height="50sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="60dp"
+        app:layout_constraintStart_toStartOf="parent"
+        android:backgroundTint="#6682D6"
+        android:text="Bytecode"
+        android:fontFamily="@font/sf_ui_dis_regular"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="60dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/course1_des_paratxt"
+        android:text="@string/c1c1s4"
+        app:layout_constraintTop_toBottomOf="@id/startl_button"
+        android:textSize="20sp"
+        android:textColor="@color/gray"
+        android:layout_marginTop="5sp"
+        android:layout_marginLeft="35sp"
+        android:layout_marginRight="35sp"
+        android:fontFamily="@font/sf_ui_display_light"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

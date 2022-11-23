@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/cardbackground1"
+    android:backgroundTint="@color/white"
+    app:cardCornerRadius="5dp"
+    app:cardElevation="5dp"
+    android:layout_margin="15dp"
+    android:layout_marginLeft="16dp"
+    android:layout_marginBottom="10dp"
+    app:layout_editor_absoluteX="28dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+
+
+        <TextView
+            android:id="@+id/tvcourse_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:textColor="@color/gray"
+            android:fontFamily="@font/sf_ui_display_light"
+            android:text="Course Name"
+            android:textSize="27sp"
+            android:layout_marginLeft="10dp" />
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginVertical="10dp"
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp">
+
+        <TextView
+            android:id="@+id/courseby"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="by"
+            android:textColor="@color/gray"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="38dp"
+            android:layout_marginLeft="72dp" />
+
+        <TextView
+            android:id="@+id/tofcourse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Teacher"
+            android:layout_marginTop="38dp"
+            android:textColor="@color/gray"
+            android:layout_marginStart="5dp"
+            android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>

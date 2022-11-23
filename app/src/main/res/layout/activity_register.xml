@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".register">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:layout_width="250dp"
+            android:layout_height="150dp"
+            android:src="@drawable/beacoder_logo" />
+
+        <EditText
+            android:id="@+id/name"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="30dp"
+            android:background="@color/light_white"
+            android:hint="Full Name"
+            android:inputType="text"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+        <EditText
+            android:id="@+id/reguser"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/light_white"
+
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:padding="5dp"
+
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <EditText
+            android:id="@+id/regpass"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/light_white"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+
+        <Button
+            android:id="@+id/reglog"
+            android:layout_width="130dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/card_1"
+            android:padding="5dp"
+            android:soundEffectsEnabled="true"
+            android:text="Register"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/log"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:padding="5dp"
+            android:soundEffectsEnabled="true"
+            android:text="Already registered? LOGIN"
+            android:textColor="@color/black"
+            android:textSize="14sp"
+            android:background="@color/light_white"/>
+
+        <ProgressBar
+            android:id="@+id/progressbar1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

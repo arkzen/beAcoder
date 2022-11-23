@@ -1,0 +1,213 @@
+<resources>
+    <string name="app_name">BeAcoder</string>
+
+    <string name="course1_name">Introduction\nto Java</string>
+    <string name="progress_text">Progress: 20%</string>
+    <string name="course2_name">Advanced Learning - Java</string>
+    <string name="courses_txt">Courses</string>
+    <string name="courseshubheading_txt">Your are learning with us</string>
+    <string name="cd_javalogo">java logo</string>
+    <string name="course4_name">Java\nWeb Programming</string>
+    <string name="course3_name">Java\nThread Programming</string>
+
+    Bottom Nevigation:
+    <string name="home_text">Home</string>
+    <string name="search_text">Search</string>
+    <string name="profile_text">Profile</string>
+    <string name="editor_text">Editor</string>
+    <string name="more_text">More</string>
+
+    <string name="java_description">Java is one of the most popular programming languages used to create Web applications and platforms. It was designed for flexibility, allowing developers to write code that would run on any machine, regardless of architecture or platform. According to the Java home page, more than 1 billion computers and 3 billion mobile phones worldwide run Java.
+    Java is used to build applications and platforms for a number of devices, including computers, laptops, gaming consoles, Blu-ray players, car navigation systems, medical monitoring devices, parking meters, lottery terminals and smartphones. It is also a key language for networking, particularly for data centers that store and transfer Web-based data.</string>
+    <string name="sjghu">In general, method declarations has six components :
+
+1. Modifier: It defines the access type of the method i.e. from where it can be accessed in your application. In Java, there 4 types of access specifiers.
+
+public: It is accessible in all classes in your application.
+protected: It is accessible within the class in which it is defined and in its subclass/es
+private: It is accessible only within the class in which it is defined.
+default: It is declared/defined without using any modifier. It is accessible within the same class and package within which its class is defined.
+2. The return type: The data type of the value returned by the method or void if does not return a value.
+
+3. Method Name: the rules for field names apply to method names as well, but the convention is a little different.
+
+4. Parameter list: Comma-separated list of the input parameters is defined, preceded with their data type, within the enclosed parenthesis. If there are no parameters, you must use empty parentheses ().
+
+5. Exception list: The exceptions you expect by the method can throw, you can specify these exception(s).
+
+6. Method body: it is enclosed between braces. The code you need to be executed to perform your intended operations.</string>
+
+    <string name="first_java_codes">
+        Java is one of the most popular and widely used programming languages and platforms. Java is fast, reliable, and secure. Java is used in every nook and corner from desktop to web applications, scientific supercomputers to gaming consoles, cell phones to the Internet.
+
+Java is easy to learn, and its syntax is simple and easy to understand. It is based on C++ (so easier for programmers who know C++).
+
+The process of Java programming can be simplified in three steps:
+
+Create the program by typing it into a text editor and saving it to a file – HelloWorld.java.
+Compile it by typing “javac HelloWorld.java” in the terminal window.
+Execute (or run) it by typing “java HelloWorld” in the terminal window.
+The below-given program is the most simple program of Java printing “Hello World” to the screen. Let us try to understand every bit of code step by step.
+
+        \nPrinting "Hello World!"
+	\nTo print something, System.out.print(""); this is needed to type.The compiler will print what is written inside the commas quotation.
+      \n\nPractice :
+           \npublic class MyClass {
+  public static void main(String[] args) {
+
+System.out.print("Hello World");
+  }
+}
+
+Output : \nHello World
+    </string>
+    <string name="datatypes">
+Variable is a name that indicates a location in the memory.Variable in Java is a data container that saves the data values during Java program execution.Every variable is assigned a data type that designates the type and quantity of value it can hold.\n
+<br><b>There are 4 types of variables :\n</b> </br>
+<br>1. Instance Variable.\n</br>
+<br>2. Class Variable.\n</br>
+<br>3. local Variable.\n</br>
+<br>4. parameters Variable.\n\n</br>
+
+<br><b>Variable naming rules :</b>\n</br>
+<br>1. All identifiers should begin with a letter (A to Z or a to z), currency character ($) or an underscore (_).\n</br>
+<br>\n2. After the first character, identifiers can have any combination of characters.</br>
+<br>\n3. A keyword cannot be used as an identifier.</br>
+<br>\n4. Most importantly, identifiers are case sensitive.</br>
+<br>\n5. Examples of legal identifiers: age, $salary, _value, __1_value.</br>
+<br>\n6. Examples of illegal identifiers: 123abc, -salary.</br>
+
+<br>\nA data type is a classification of data which tells the compiler or interpreter how the programmer intends to use the data.Data type indicates that what type of data a variable can store.It is needed to declare a variable.A data type alwayes in small letter.\n</br>
+
+<br><b>\nThere are different Data types used in java:\n</b></br>
+<br>\nData type	memory size	Description</br>
+
+	<br>\n1.byte		    4 bit	Stores whole numbers from -128 to 127</br>
+	<br>\n2.int		   32 bit	Stores whole numbers from -2,147,483,648 to 2,147,483,647</br>
+	<br>\n3.short		   16 bit	Stores whole numbers from -32,768 to 32,767</br>
+	<br>\n4.long		   64 bit	Stores whole numbers from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807</br>
+	<br>\n5.float		   32 bit	Stores fractional numbers. Sufficient for storing 6 to 7 decimal digits</br>
+	<br>\n6.double	   64 bit	Stores fractional numbers. Sufficient for storing 15 decimal digits</br>
+	<br>\n7.char		   16 bit	Stores true or false values</br>
+	<br>\n8.boolean	    1 bit	Stores a single character/letter or ASCII values</br>
+
+
+<br>\n example :</br>
+<br>\n public class Algebra {</br>
+<br>\n public static void main(String[] args) {</br>
+	<br>\n int b=10,h=20;</br>
+	<br>\n System.out.println("b = "+b);</br>
+    <br>\n System.out.println("h = "+h);}}</br>
+
+<br>\n Output : b = 10,h = 20\n</br>
+    </string>
+
+    <string name="c1c1s4">
+        What is byte code in Java?
+Bytecode in Java is the reason java is platform-independent, as soon as a Java program is compiled bytecode is generated. To be more precise a Java bytecode is the machine code in the form of a . class file. A bytecode in Java is the instruction set for Java Virtual Machine and acts similar to an assembler.
+    </string>
+
+    <string name="c1c1s5">
+        Java Virtual Machine, or JVM, loads, verifies and executes Java bytecode. It is known as the interpreter or the core of Java programming language because it executes Java programming.
+    </string>
+
+    <string name="c1c1s6">
+<br><b>Some popular IDE for java coding</b>\n</br>
+<br>Eclipse\n</br>
+<br>Intellij Idea\n</br>
+<br>Netbins\n</br>
+<br>Bluej\n</br>
+<br>Jdeveloper\n</br>
+<br>jGRASP\n</br>
+<br>DrJava\n</br>
+    </string>
+    <string name="c1c1s2">
+<br><b>REASONS WHY JAVA WAS THE OPTIMAL CHOICE</b>\n</br>
+<br>1.OBJECT-BASED PROGRAMMING   LANGUAGE\n</br>
+<br>2.OPEN SOURCE PROGRAMMING LANGUAGE\n</br>
+<br>3.SEAMLESS COMMUNITY DEVELOPER SUPPORT\n</br>
+<br>4.JAVA IS ALWAYS EASY TO LEARN</br>
+<br>5.ITS VERSATILITY MAKES IT A POPULAR CHOICE</br>
+<br>6.ACCESS TO POWERFUL DEVELOPMENT TOOLS</br>
+<br>7.JAVA IS FREELY AVAILABLE</br>
+<br>8.LET’S SUMMARIZE SOME FACTS AND STATISTICS…</br>
+<br>9.IS JAVA A GOOD CHOICE FOR MOBILE APP DEVELOPMENT?</br>
+</string>
+
+    <string name="c1c1s3">
+        To solve this problem, the Java Virtual Machine is a simulated machine which has multiple implementations for each computers. Once Java code is compiled into JVM bytecode, the bytecode then runs according to the JVM. The JVM then passes the actual processing work to the processor in its own language.
+    </string>
+
+    <string name="editor">Editor</string>
+    <string name="more">More</string>
+
+    <string name="navigation_open"> Open Navigation Drawer</string>
+    <string name="navigation_close"> Close Navigation Drawer</string>
+    <string name="first_java_program">First Java Program</string>
+
+
+    <string name="data_types">Data Types</string>
+
+    <string name="control_flow">Control Flow</string>
+    <string name="_15_lesson">15 Lesson</string>
+    <string name="looping">Looping</string>
+    <string name="array">Array</string>
+    <string name="beginner">Beginner</string>
+    <string name="jsg">jsg</string>
+
+    <string-array name="c1firstprogram_t1">
+        <item>First Java code</item>
+        <item>Why Java?</item>
+        <item>How Java Works?</item>
+        <item>Bytecode</item>
+        <item>Java Virtual Machine</item>
+        <item>IDE for Java</item>
+    </string-array>
+
+    <string-array name="c1syntax_t2">
+        <item>Object</item>
+        <item>Class</item>
+        <item>Java Method</item>
+        <item>Object Instantiation</item>
+        <item>Method Overloading</item>
+        <item>Constructor</item>
+        <item>Usage of Method</item>
+        <item>Printing</item>
+        <item>Parameter</item>
+        <item>Package Import</item>
+        <item>Exercise</item>
+    </string-array>
+
+    <string-array name="c1variables_t3">
+        <item>Variable and Data Types</item>
+        <item>Wrapper Class</item>
+        <item>Literal</item>
+        <item>Operator</item>
+        <item>Expression</item>
+        <item>Practice</item>
+
+    </string-array>
+
+    <string-array name="c1controlflow_t4">
+        <item>Decision Making Statement</item>
+        <item>Loop</item>
+        <item>Break and Continue</item>
+        <item>Return</item>
+        <item>Practice</item>
+    </string-array>
+
+    <string-array name="c1array_t5">
+        <item>Array Declaration</item>
+        <item>Creation</item>
+        <item>Access</item>
+        <item>Multi-Dimensional Array</item>
+        <item>Enhanced</item>
+        <item>Copying</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="welcome_subtittle">We provides valuable programming courses\n you can learn coding from here</string>
+
+
+</resources>

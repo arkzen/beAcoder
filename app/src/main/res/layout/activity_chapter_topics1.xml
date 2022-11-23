@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/sky_blue"
+    tools:context=".chapter_topics1"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/chapter1_tittle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/toolbar"
+        android:text="First Java Program"
+        android:gravity="center"
+        android:background="#B1E1E6"
+        android:padding="15dp"
+        android:layout_margin="10dp"
+        android:fontFamily="@font/sf_ui_dis_regular"
+        android:textSize="30dp"
+        android:textColor="@color/white"/>
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/listview1"
+        android:divider="@color/white"
+        android:dividerHeight="2dp"/>
+
+    <Button
+        android:id="@+id/btnprog"
+        android:layout_width="130dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="#B1E1E6"
+        android:padding="5dp"
+        android:soundEffectsEnabled="true"
+        android:text="See Progress"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+</LinearLayout>

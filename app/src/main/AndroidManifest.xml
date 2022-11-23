@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.ganymede.BeAcoder">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".After_login"
+            android:exported="false" />
+        <activity
+            android:name=".Teachercreatecourse_4thpage"
+            android:exported="false" />
+        <activity
+            android:name=".Teachercreatecourse_3rdpage"
+            android:exported="false" />
+        <activity
+            android:name=".ExploreCourse_3rdpage"
+            android:exported="false" />
+        <activity
+            android:name=".ExploreCourseOverview_2ndpage"
+            android:exported="false" />
+        <activity
+            android:name=".TCreatecourse_2ndpage"
+            android:exported="false" />
+        <activity
+            android:name=".explore_courses"
+            android:exported="false" />
+        <activity
+            android:name=".Create_courses1"
+            android:exported="false" />
+        <activity
+            android:name=".c1c5"
+            android:exported="false" />
+        <activity
+            android:name=".c1c4"
+            android:exported="false" />
+        <activity
+            android:name=".c1c3"
+            android:exported="false" />
+        <activity
+            android:name=".c1c1s6"
+            android:exported="false" />
+        <activity
+            android:name=".c1c1s5"
+            android:exported="false" />
+        <activity
+            android:name=".c1c1s4"
+            android:exported="false" />
+        <activity
+            android:name=".c1c1s3"
+            android:exported="false" />
+        <activity
+            android:name=".c1c1s2"
+            android:exported="false" />
+        <activity
+            android:name=".progressbar2"
+            android:exported="false" />
+        <activity
+            android:name=".courses"
+            android:exported="false" />
+        <activity
+            android:name=".c1c2"
+            android:exported="false" />
+        <activity
+            android:name=".user_profile"
+            android:exported="false" />
+        <activity
+            android:name=".register"
+            android:exported="false" />
+        <activity
+            android:name=".login"
+            android:exported="false" />
+        <activity
+            android:name=".chapter_topics1"
+            android:exported="false" />
+        <activity
+            android:name=".VariablesAndDatatypes"
+            android:exported="false" />
+        <activity
+            android:name=".learningphase_1"
+            android:exported="false" />
+        <activity
+            android:name=".course1_chapter"
+            android:exported="false" />
+        <activity
+            android:name=".python_description"
+            android:exported="false" />
+        <activity
+            android:name=".course1_description"
+            android:exported="false" />
+        <activity
+            android:name=".JavaEditor"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

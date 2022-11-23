@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    app:layout_editor_absoluteX="1dp"
+    app:layout_editor_absoluteY="1dp"
+    android:background="@color/white"
+    android:backgroundTint="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:backgroundTint="@color/white">
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/course1_des_txt"
+            android:text="Course Tittle"
+            android:textSize="30sp"
+            android:layout_marginLeft="35sp"
+            android:layout_marginTop="50sp"
+            android:fontFamily="@font/sf_ui_display_light"/>
+
+
+
+
+        <Button
+            android:id="@+id/startl_button1"
+            android:layout_width="200sp"
+            android:layout_height="50sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="35dp"
+            app:layout_constraintStart_toStartOf="parent"
+            android:backgroundTint="#6682D6"
+            android:text="Start Learning"
+            android:fontFamily="@font/sf_ui_dis_regular"
+            app:layout_constraintTop_toBottomOf="@id/course1_des_txt"
+            android:layout_marginLeft="35dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/course1_txt3"
+            android:text="Description"
+            app:layout_constraintTop_toBottomOf="@id/startl_button1"
+            android:textSize="19sp"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="35sp"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/sf_ui_dis_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/course_des"
+            android:text="@string/java_description"
+            app:layout_constraintTop_toBottomOf="@id/course1_txt3"
+            android:textSize="14sp"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="35sp"
+            android:layout_marginRight="35sp"
+            android:fontFamily="@font/sf_ui_display_light"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/course1_txt5"
+            android:text="Author Overview"
+            app:layout_constraintTop_toBottomOf="@id/course_des"
+            android:textSize="19sp"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="35sp"
+            android:layout_marginTop="10sp"
+            android:fontFamily="@font/sf_ui_dis_regular"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/teacher_des"
+            android:text="overview"
+            app:layout_constraintTop_toBottomOf="@id/course1_txt5"
+            android:textSize="14sp"
+            android:textColor="@color/gray"
+            android:layout_marginLeft="35sp"
+            android:layout_marginRight="35sp"
+            android:fontFamily="@font/sf_ui_display_light"/>
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Create_courses1">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+
+    <EditText
+        android:id="@+id/teachername"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/light_white"
+        android:hint="Your Full Name"
+        android:inputType="text"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+    <EditText
+        android:id="@+id/teacheremail"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:background="@color/light_white"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/coursename"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@color/light_white"
+        android:hint="Course Name"
+        android:inputType="textPassword"
+        android:padding="5dp"
+        android:textColor="@color/black"
+        android:textSize="22sp" />
+
+
+        <EditText
+            android:id="@+id/coursecode"
+            android:layout_width="330dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/light_white"
+            android:hint="Course Code"
+            android:padding="5dp"
+            android:textColor="@color/black"
+            android:textSize="22sp" />
+    <Button
+        android:id="@+id/createbutton"
+        android:layout_width="180dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@color/card_1"
+        android:padding="5dp"
+        android:soundEffectsEnabled="true"
+        android:text="Create Course"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/explorecourses"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginTop="40dp"
+            android:background="@color/card_1"
+            android:padding="5dp"
+            android:soundEffectsEnabled="true"
+            android:text="Explore Courses"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+
+        <ProgressBar
+        android:id="@+id/progressbar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
